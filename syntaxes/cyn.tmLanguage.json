@@ -1,0 +1,21 @@
+{
+  "scopeName": "source.cyn",
+  "patterns": [
+    {
+      "match": "\\b(biarkan|fungsi|kembalikan|jika|selain itu|selesai|ulang|selama|untuk|setiap|di|coba|tangkap|tunggu|impor|sebagai)\\b",
+      "name": "keyword.control.cyn"
+    },
+    {
+      "match": "\".*?\"",
+      "name": "string.quoted.double.cyn"
+    },
+    {
+      "match": "\\b\\d+\\b",
+      "name": "constant.numeric.cyn"
+    },
+    {
+      "match": "#.*$",
+      "name": "comment.line.cyn"
+    }
+  ]
+}

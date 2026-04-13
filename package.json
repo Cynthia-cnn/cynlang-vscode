@@ -1,0 +1,40 @@
+{
+  "name": "cynlang-vscode",
+  "displayName": "CynLang",
+  "description": "CynLang support (syntax, snippet, formatter)",
+  "version": "1.1.1",
+  "publisher": "cynthia",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": ["Programming Languages"],
+  "contributes": {
+    "languages": [
+      {
+        "id": "cyn",
+        "aliases": ["CynLang", "cyn"],
+        "extensions": [".cyn"],
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "./icon.png",
+          "dark": "./icon.png"
+        }
+      }
+    ],
+    "grammars": [
+      {
+        "language": "cyn",
+        "scopeName": "source.cyn",
+        "path": "./syntaxes/cyn.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "cyn",
+        "path": "./snippets/cyn.json"
+      }
+    ]
+  },
+  "main": "./formatter.js"
+}

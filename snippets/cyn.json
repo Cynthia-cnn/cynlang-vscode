@@ -1,0 +1,36 @@
+{
+  "Fungsi": {
+    "prefix": "fungsi",
+    "body": [
+      "fungsi ${1:nama}(${2:param})",
+      "    ${3}",
+      "selesai"
+    ]
+  },
+  "If": {
+    "prefix": "jika",
+    "body": [
+      "jika ${1:kondisi}",
+      "    ${2}",
+      "selesai"
+    ]
+  },
+  "Loop": {
+    "prefix": "ulang",
+    "body": [
+      "ulang ${1:i} 1..${2:10}",
+      "    ${3}",
+      "selesai"
+    ]
+  },
+  "TryCatch": {
+    "prefix": "coba",
+    "body": [
+      "coba",
+      "    ${1}",
+      "tangkap e",
+      "    ${2}",
+      "selesai"
+    ]
+  }
+}

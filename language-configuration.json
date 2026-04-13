@@ -1,0 +1,13 @@
+{
+  "comments": {
+    "lineComment": "#"
+  },
+  "brackets": [],
+  "autoClosingPairs": [
+    { "open": "\"", "close": "\"" }
+  ],
+  "indentationRules": {
+    "increaseIndentPattern": "\\b(jika|fungsi|ulang|selama|coba|untuk)\\b",
+    "decreaseIndentPattern": "\\b(selesai)\\b"
+  }
+}
